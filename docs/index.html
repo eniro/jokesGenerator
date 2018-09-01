@@ -6,7 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
     <title>Chuck Norris Joke Generator</title>
+    <style>
+        body {
+            background-image: linear-gradient(to right, #833ab4, #fd1d1d
+
+ ,#fcb045);
+            font-family: 'Handlee', cursive;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -17,10 +26,10 @@
                 <input type = "number" id="number">
             </div>
             <div>
-                <button class="get-jokes">Get Jokes</button>
+                <button class="get-jokes" style="color:black">Get Jokes</button>
             </div>
         </form>
-        <ul class="jokes"></ul>
+        <ul class="jokes" style="font-size:16px"></ul>
     </div>
     <script src="app.js"></script>
 </body>
